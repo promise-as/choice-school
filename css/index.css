@@ -9,42 +9,104 @@ input { text-indent: 1em; }
 
 input[type="submit"] { text-indent: 0; cursor: pointer; border: none; -webkit-appearance: none; -moz-appearance: none; appearance: none; }
 
-i, .cs-classroom li .txt { display: inline-block; *zoom: 1; *display: inline; }
+i, .cs-classroom li .txt, .cs-btn { display: inline-block; *zoom: 1; *display: inline; }
 
 .cs-classroom li .txt { white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
 
 i { vertical-align: middle; }
 
-.space-between { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+.space-between, .cs-apply ul, .cs-is ul, .cs-aura ul { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
 
 .space-around { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-wrap: wrap; flex-wrap: wrap; -ms-flex-pack: distribute; justify-content: space-around; }
 
 .cs-wrap { width: 10rem; margin: 0 auto; background-color: #00cafd; font-family: "Microsoft Yahei"; }
 
-.cs-head { padding-top: 0.6rem; -webkit-box-sizing: border-box; box-sizing: border-box; height: 7.2666666667rem; background: url(../images/banner.png) no-repeat; background-size: 100% 100%; }
+.cs-head { padding-top: 0.6rem; -webkit-box-sizing: border-box; box-sizing: border-box; height: 7.2666666667rem; background: url(https://img.thea.cn/public/platform/thea/202003/hbj/choice-school/images/banner.png) no-repeat; background-size: 100% 100%; }
 .cs-head .logo { width: 2.8rem; height: 0.72rem; margin-left: 0.5333333333rem; }
 .cs-head .logo img { width: 100%; }
 
 .cs-headline { font-weight: bold; color: #0a4a76; text-align: center; font-size: 0.56rem; }
-.cs-headline .focus { line-height: 0.6666666667rem; background: url(../images/bg_2.png) bottom; background-repeat: repeat-x; background-size: auto 0.1866666667rem; }
+.cs-headline .focus { line-height: 0.6666666667rem; background: url(https://img.thea.cn/public/platform/thea/202003/hbj/choice-school/images/bg_2.png) bottom; background-repeat: repeat-x; background-size: auto 0.1866666667rem; }
 .cs-headline em { color: #ff6000; font-weight: bold; }
 
 .cs-subtitle { font-size: 0.4266666667rem; line-height: 0.9066666667rem; font-weight: bold; color: #0a4a76; text-align: center; }
 .cs-subtitle.no-bold { font-weight: normal; }
 
-.cs-classroom { margin: -1.2666666667rem 0.4rem 0; height: 9.0666666667rem; padding: 0.5333333333rem 0.48rem; -webkit-box-sizing: border-box; box-sizing: border-box; background: url(../images/bg_1.png) no-repeat; background-size: 100% 100%; }
+.cs-classroom { margin: -1.2666666667rem 0.4rem 0; padding: 0.5333333333rem 0.48rem; -webkit-box-sizing: border-box; box-sizing: border-box; background: url(https://img.thea.cn/public/platform/thea/202003/hbj/choice-school/images/bg_1.png) no-repeat; background-size: 100% 100%; }
 .cs-classroom ul { padding-top: 0.5333333333rem; }
 .cs-classroom li { height: 0.9733333333rem; background-image: -webkit-gradient(linear, left top, left bottom, from(#33e4ff), to(#00ccff)), -webkit-gradient(linear, left top, left bottom, from(#def8ff), to(#def8ff)); background-image: linear-gradient(180deg, #33e4ff 0%, #00ccff 100%), linear-gradient(#def8ff, #def8ff); background-blend-mode: normal, normal; -webkit-box-shadow: 0px 0.0666666667rem 0.2666666667rem 0px rgba(5, 206, 255, 0.3); box-shadow: 0px 0.0666666667rem 0.2666666667rem 0px rgba(5, 206, 255, 0.3); border-radius: 0.4933333333rem; font-weight: bold; padding-left: 1.24rem; -webkit-box-sizing: border-box; box-sizing: border-box; margin-bottom: 0.4rem; position: relative; }
 .cs-classroom li .num { width: 1.0933333333rem; height: 1.0933333333rem; line-height: 1.0933333333rem; background-image: -webkit-gradient(linear, left top, left bottom, from(#fff729), to(#ffe118)), -webkit-gradient(linear, left top, left bottom, from(#00ccff), to(#00ccff)); background-image: linear-gradient(180deg, #fff729 0%, #ffe118 100%), linear-gradient(#00ccff, #00ccff); background-blend-mode: normal, normal; border-radius: 50%; font-size: 0.5866666667rem; color: #03acd5; text-align: center; position: absolute; top: -0.0533333333rem; left: 0; }
 .cs-classroom li .txt { width: 100%; font-size: 0.3466666667rem; line-height: 0.9733333333rem; color: #ffffff; }
 
-.cs-btn { height: 1.1733333333rem; line-height: 1.1733333333rem; background-color: #0a4a76; border-radius: 0.08rem; color: #fff; font-size: 0.4266666667rem; }
+.cs-btn { height: 1.1733333333rem; line-height: 1.1733333333rem; background-color: #0a4a76; border-radius: 0.08rem; color: #fff; font-size: 0.4266666667rem; text-align: center; }
 
-.cs-places { padding-top: 0.5333333333rem; position: relative; }
-.cs-places .cs-contact { width: 100%; height: 0.6666666667rem; background: url(../images/title.png) no-repeat top; background-size: auto 100%; position: absolute; top: 0; }
-.cs-places .places-cont { margin: 0 0.4rem; padding: 0.6666666667rem 0.5333333333rem; -webkit-box-sizing: border-box; box-sizing: border-box; background-color: #ffffff; -webkit-box-shadow: 0px 0.1333333333rem 0.3333333333rem 0px rgba(39, 127, 149, 0.1); box-shadow: 0px 0.1333333333rem 0.3333333333rem 0px rgba(39, 127, 149, 0.1); border-radius: 0 0 0.2rem 0.2rem; border-radius: 0.2rem; }
-.cs-places .sign-in { padding-top: 0.2666666667rem; }
-.cs-places .sign-in input { width: 100%; height: 1.1733333333rem; line-height: 1.1733333333rem; font-size: 0.3733333333rem; background-color: #f7fdff; border-radius: 0.08rem; border: solid 1px #00ccff; -webkit-box-sizing: border-box; box-sizing: border-box; margin-bottom: 0.4rem; }
-.cs-places .sign-in .cs-btn { font-size: 0.4266666667rem; background-color: #0a4a76; border: none; }
+.cs-hang { width: 100%; height: 0.6666666667rem; background: url(https://img.thea.cn/public/platform/thea/202003/hbj/choice-school/images/title.png) no-repeat top; background-size: auto 100%; position: absolute; top: 0; }
 
+.cs-cont { margin: 0 0.4rem; padding: 0.6666666667rem 0.5333333333rem; -webkit-box-sizing: border-box; box-sizing: border-box; background-color: #ffffff; -webkit-box-shadow: 0px 0.1333333333rem 0.3333333333rem 0px rgba(39, 127, 149, 0.1); box-shadow: 0px 0.1333333333rem 0.3333333333rem 0px rgba(39, 127, 149, 0.1); border-radius: 0 0 0.2rem 0.2rem; border-radius: 0.2rem; }
+
+.cs-lcm { padding-top: 0.5333333333rem; position: relative; }
+
+.cs-form { padding-top: 0.2666666667rem; }
+.cs-form input { width: 100%; height: 1.1733333333rem; line-height: 1.1733333333rem; font-size: 0.3733333333rem; background-color: #f7fdff; border-radius: 0.08rem; border: solid 1px #00ccff; -webkit-box-sizing: border-box; box-sizing: border-box; margin-bottom: 0.4rem; }
+.cs-form .cs-btn { margin-bottom: 0.2666666667rem; font-size: 0.4266666667rem; background-color: #0a4a76; border: none; }
+
+.cs-apply ul { padding-top: 0.6666666667rem; }
+.cs-apply li { width: 2.4933333333rem; height: 3.4666666667rem; background-image: -webkit-gradient(linear, left top, left bottom, from(#33e4ff), to(#00ccff)), -webkit-gradient(linear, left top, left bottom, from(#f7fdff), to(#f7fdff)); background-image: linear-gradient(180deg, #33e4ff 0%, #00ccff 100%), linear-gradient(#f7fdff, #f7fdff); background-blend-mode: normal, normal; -webkit-box-shadow: 0px 0.0666666667rem 0.2666666667rem 0px rgba(5, 206, 255, 0.3); box-shadow: 0px 0.0666666667rem 0.2666666667rem 0px rgba(5, 206, 255, 0.3); border-radius: 0.08rem; margin-bottom: 0.32rem; }
+.cs-apply li .item { width: 100%; height: 100%; padding: 0.48rem 0; -webkit-box-sizing: border-box; box-sizing: border-box; background: url(https://img.thea.cn/public/platform/thea/202003/hbj/choice-school/images/num_1.png) no-repeat; background-position: 0.2666666667rem 0.2666666667rem; background-size: 0.8133333333rem 0.76rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+.cs-apply li img { width: 1.0933333333rem; }
+.cs-apply li span { font-size: 0.3733333333rem; line-height: 0.5066666667rem; font-weight: bold; color: #ffffff; text-align: center; }
+.cs-apply li:nth-of-type(2) .item { background: url(https://img.thea.cn/public/platform/thea/202003/hbj/choice-school/images/num_2.png) no-repeat; background-position: 0.2666666667rem 0.2666666667rem; background-size: 0.9466666667rem 0.76rem; }
+.cs-apply li:nth-of-type(2) img { width: 1.2rem; }
+.cs-apply li:nth-of-type(3) .item { background: url(https://img.thea.cn/public/platform/thea/202003/hbj/choice-school/images/num_3.png) no-repeat; background-position: 0.2666666667rem 0.2666666667rem; background-size: 0.96rem 0.76rem; }
+.cs-apply li:nth-of-type(3) img { width: 1.2266666667rem; }
+.cs-apply li:nth-of-type(4) .item { background: url(https://img.thea.cn/public/platform/thea/202003/hbj/choice-school/images/num_4.png) no-repeat; background-position: 0.2666666667rem 0.2666666667rem; background-size: 0.96rem 0.76rem; }
+.cs-apply li:nth-of-type(4) img { width: 1.2rem; }
+.cs-apply li:nth-of-type(5) .item { background: url(https://img.thea.cn/public/platform/thea/202003/hbj/choice-school/images/num_5.png) no-repeat; background-position: 0.2666666667rem 0.2666666667rem; background-size: 0.9733333333rem 0.76rem; }
+.cs-apply li:nth-of-type(5) img { width: 1.0666666667rem; }
+.cs-apply li:nth-of-type(6) .item { background: url(https://img.thea.cn/public/platform/thea/202003/hbj/choice-school/images/num_6.png) no-repeat; background-position: 0.2666666667rem 0.2666666667rem; background-size: 0.9733333333rem 0.76rem; }
+.cs-apply li:nth-of-type(6) img { width: 1.0666666667rem; }
+
+.cs-rector ul { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; padding-top: 0.8rem; margin: 0 -0.1333333333rem; }
+.cs-rector li { width: 33.33%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; text-align: center; margin-bottom: 0.4rem; }
+.cs-rector li .bg { width: 2.3333333333rem; padding: 0.1066666667rem; -webkit-box-sizing: border-box; box-sizing: border-box; height: 2.3333333333rem; background-color: #00cafd; border-radius: 50%; }
+.cs-rector li .bg img { width: 100%; border-radius: 50%; }
+.cs-rector li .name { font-size: 0.3466666667rem; font-weight: bold; line-height: 0.5066666667rem; color: #0a4a76; white-space: nowrap; margin: 0.2666666667rem 0 0.1333333333rem; }
+.cs-rector li .txt { font-size: 0.2933333333rem; line-height: 0.4rem; color: #447190; white-space: nowrap; }
+
+.cs-live-cont ul { padding: 0 0.4rem 0.5066666667rem; margin: 0.5333333333rem 0 0.4rem; background-color: #e5faff; border-radius: 0.2rem; }
+.cs-live-cont li { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 0.32rem 0; border-bottom: 1px dashed #0a4a76; }
+.cs-live-cont li .num { width: 0.6133333333rem; height: 0.6133333333rem; line-height: 0.6133333333rem; font-size: 0.3466666667rem; color: #0a4a76; background-image: -webkit-gradient(linear, left top, left bottom, from(#fff729), to(#ffe118)), -webkit-gradient(linear, left top, left bottom, from(#0a4a76), to(#0a4a76)); background-image: linear-gradient(180deg, #fff729 0%, #ffe118 100%), linear-gradient(#0a4a76, #0a4a76); background-blend-mode: normal, normal; border-radius: 50%; text-align: center; margin-right: 0.2666666667rem; }
+.cs-live-cont li .txt { width: 80%; font-size: 0.3733333333rem; line-height: 0.5066666667rem; color: #0a4a76; }
+.cs-live-cont .cs-btn { width: 100%; text-align: center; }
+
+.cs-all .schedule { width: 3.0666666667rem; height: 0.9066666667rem; line-height: 0.9066666667rem; background-image: -webkit-gradient(linear, left top, left bottom, from(#33e4ff), to(#00ccff)), -webkit-gradient(linear, left top, left bottom, from(#000000), to(#000000)); background-image: linear-gradient(180deg, #33e4ff 0%, #00ccff 100%), linear-gradient(#000000, #000000); background-blend-mode: normal, normal; -webkit-box-shadow: 0px 0.0666666667rem 0.2666666667rem 0px rgba(5, 206, 255, 0.3); box-shadow: 0px 0.0666666667rem 0.2666666667rem 0px rgba(5, 206, 255, 0.3); border-radius: 0.4533333333rem; font-size: 0.4266666667rem; font-weight: bold; color: #ffffff; margin: 0 auto 0.5333333333rem; text-align: center; }
+.cs-all img { width: 100%; }
+.cs-all .cs-btn { display: block; width: 90%; margin: 0.4rem auto 0; }
+
+.cs-is ul { padding-top: 0.8rem; }
+.cs-is li { width: 3.8666666667rem; margin-bottom: 0.4rem; }
+.cs-is li img { width: 100%; }
+.cs-is .cs-btn { width: 100%; }
+
+.cs-aura ul { padding-top: 0.8rem; }
+.cs-aura li { width: 4rem; margin-bottom: 0.24rem; }
+.cs-aura li img { width: 100%; }
+
+.cs-get { padding-bottom: 1.04rem; background: url(https://img.thea.cn/public/platform/thea/202003/hbj/choice-school/images/footer.png) no-repeat bottom; background-size: 100% auto; }
+.cs-get ul { padding: 0.2666666667rem 0.2666666667rem 0; }
+.cs-get li { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 0.32rem 0; border-bottom: 1px dashed #00cafd; }
+.cs-get li .icon { width: 0.2666666667rem; height: 0.2666666667rem; background: url(https://img.thea.cn/public/platform/thea/202003/hbj/choice-school/images/icon_7.png) no-repeat; background-size: 100% 100%; margin-right: 0.0666666667rem; }
+.cs-get li .txt { font-size: 0.3733333333rem; line-height: 0.5066666667rem; color: #00cafd; }
+.cs-get li:last-child { border-bottom: none; }
+.cs-get .get-code { text-align: center; padding-top: 0.4rem; }
+.cs-get .get-code .wechat { width: 3.8666666667rem; padding: 0.1066666667rem; -webkit-box-sizing: border-box; box-sizing: border-box; background-color: #00c9fc; margin: 0 auto 0.5333333333rem; }
+.cs-get .get-code .wechat img { width: 100%; }
+.cs-get .get-code .txt { font-size: 0.4266666667rem; font-weight: bold; line-height: 0.7733333333rem; color: #0a4a76; }
+
+.cs-popup { position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 100; display: none; }
+.cs-popup .masklayer { position: absolute; top: 0; left: 0; z-index: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.4); }
+.cs-popup .cont { width: 8.9333333333rem; position: absolute; top: 42%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); z-index: 200; }
+.cs-popup .cs-form { background-color: #ffffff; border-radius: 0.2133333333rem; padding: 0.4rem; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.cs-popup .cs-headline { margin-bottom: 0.5333333333rem; }
+.cs-popup .close { width: 1.0666666667rem; height: 1.0666666667rem; background: url(https://img.thea.cn/public/platform/thea/202003/hbj/choice-school/images/close.png) no-repeat; background-size: 100% 100%; position: absolute; bottom: -1.8666666667rem; left: 0; right: 0; margin: auto; }
 /*# sourceMappingURL=index.css.map */
